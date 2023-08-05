@@ -1,5 +1,12 @@
-function Profile() {
-  return <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />;
+function Profile(props) {
+  const person = props.person;
+  return (
+    <div className="profileCard">
+      <h3>{person.name}</h3>
+      <h4>{person.city}</h4>
+      <img src={person.img} alt={person.name} />
+    </div>
+  );
 }
 
 export default Profile;

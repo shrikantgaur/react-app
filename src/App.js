@@ -1,9 +1,9 @@
-import Profile from './components/basic-components/Profile';
+import Gallery from './components/basic-components/Gallery';
 
 function App() {
   return (
     <div className="App">
-      <Profile/>
+      <Gallery/>
     </div>
   );
 }
